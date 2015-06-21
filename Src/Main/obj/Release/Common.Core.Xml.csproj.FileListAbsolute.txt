@@ -1,5 +1,0 @@
-C:\DevSource\Tamu\GeoInnovation\Common\Core\XML\Src\build\v1.1\bin\AnyCPU\release\Tamu.GeoInnovation.Common.Core.Xml.dll
-C:\DevBuild\Tamu\GeoInnovation\Common\Core\Web\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Xml.dll
-C:\DevBuild\Tamu\GeoInnovation\Common\Core\Xml\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Xml.dll
-C:\DevSource\Tamu\GeoInnovation\Common\Core\XML\Src\Main\obj\Release\Tamu.GeoInnovation.Common.Core.Xml.dll
-C:\DevSource\Tamu\GeoInnovation\Common\Core\XML\build\1.0.0\AnyCPU\release\Tamu.GeoInnovation.Common.Core.Xml.dll

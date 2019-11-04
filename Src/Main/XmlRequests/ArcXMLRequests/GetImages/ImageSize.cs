@@ -18,7 +18,7 @@ namespace USC.GISResearchLab.Common.XMLRequests.ArcXMLRequests
             get { return _Width; }
             set { _Width = value; }
         }
-	
+
         #endregion
 
         public ImageSize(int width, int height)

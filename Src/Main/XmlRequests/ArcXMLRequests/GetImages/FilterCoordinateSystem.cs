@@ -19,7 +19,7 @@ namespace USC.GISResearchLab.Common.XMLRequests.ArcXMLRequests
 
         public override string ToString()
         {
-            
+
             string ret = "";
             if (CoordinateSystemCode > 0)
             {

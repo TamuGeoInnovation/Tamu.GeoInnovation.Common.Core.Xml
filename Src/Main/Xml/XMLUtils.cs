@@ -6,9 +6,9 @@ using System.Xml.XPath;
 
 namespace USC.GISResearchLab.Common.Utils.XML
 {
-	/// <summary>
-	/// Summary description for XMLUtils.
-	/// </summary>
+    /// <summary>
+    /// Summary description for XMLUtils.
+    /// </summary>
     public class XMLUtils
     {
         public XMLUtils()

@@ -216,6 +216,57 @@ namespace USC.GISResearchLab.Common.Utils.XML
             return ret;
         }
 
+        public static DateTime GetInnerTextAsDateTime(XmlNode xmlNode)
+        {
+            DateTime ret = new DateTime();
+            if (xmlNode != null)
+            {
+                ret = DateTime.Parse(xmlNode.InnerText);
+            }
+            return ret;
+        }
+
+        public static double GetInnerTextAsDouble(XmlNode xmlNode)
+        {
+            double ret = 0.0;
+            if (xmlNode != null)
+            {
+                ret = Convert.ToDouble(xmlNode.InnerText);
+            }
+            return ret;
+        }
+
+        public static bool GetInnerTextAsBoolean(XmlNode xmlNode)
+        {
+            bool ret = false;
+            if (xmlNode != null)
+            {
+                ret = Convert.ToBoolean(xmlNode.InnerText);
+            }
+            return ret;
+        }
+
+        public static string GetInnerTextAsString(XmlNode xmlNode)
+        {
+            string ret = "";
+            if (xmlNode != null)
+            {
+                ret = Convert.ToString(xmlNode.InnerText);
+            }
+
+            return ret;
+        }
+
+        public static int GetInnerTextAsInt(XmlNode xmlNode)
+        {
+            int ret = 0;
+            if (xmlNode != null)
+            {
+                ret = Convert.ToInt32(xmlNode.InnerText);
+            }
+            return ret;
+        }
+
         public static XmlDocument getDocumentFromNode(XmlNode selection)
         {
             XmlDocument ret = null;

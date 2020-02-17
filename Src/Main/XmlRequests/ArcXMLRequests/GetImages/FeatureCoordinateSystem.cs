@@ -3,12 +3,7 @@ namespace USC.GISResearchLab.Common.XMLRequests.ArcXMLRequests
     public class FeatureCoordinateSystem
     {
         #region Properties
-        private int _CoordinateSystemCode;
-        public int CoordinateSystemCode
-        {
-            get { return _CoordinateSystemCode; }
-            set { _CoordinateSystemCode = value; }
-        }
+        public int CoordinateSystemCode { get; set; }
         #endregion
 
 

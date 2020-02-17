@@ -4,20 +4,9 @@ namespace USC.GISResearchLab.Common.XMLRequests.ArcXMLRequests
     {
 
         #region Properties
-        private int _Width;
-        private int _Height;
 
-        public int Height
-        {
-            get { return _Height; }
-            set { _Height = value; }
-        }
-
-        public int Width
-        {
-            get { return _Width; }
-            set { _Width = value; }
-        }
+        public int Height { get; set; }
+        public int Width { get; set; }
 
         #endregion
 
